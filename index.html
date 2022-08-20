@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Oak Furniture</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- CSS -->
+    <link rel='stylesheet' href='./assets/css/main.css'>
+    <!-- Favicon -->
+    <link rel="shortcut icon"
+        href="https://www.themattresswarehouse.co.za/static/FaviconBed-03c6d2e9f3410b17698cdd1518f29789.png"
+        type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <!-- Navbar -->
+        <header id="header">
+            <div class="container">
+                <nav class="topnav d-flex-space">
+                    <div class="topnav__left-section">
+                        <ul class="topnav__list d-flex-center">
+                            <li class="topnav__list-item">
+                                <a href="#!" class="topnav__list-link light">home</a>
+                            </li>
+                            <li class="topnav__list-item">
+                                <a href="#!" class="topnav__list-link">shop</a>
+                            </li>
+                            <li class="topnav__list-item">
+                                <a href="#!" class="topnav__list-link">pages</a>
+                            </li>
+                            <li class="topnav__list-item">
+                                <a href="#!" class="topnav__list-link">elements</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="topnav__medium-section">
+                        <div class="topnav__icon">
+                            <img src="./assets/images/logo.svg" class="topnav__icon-image" alt="İcon">
+                        </div>
+                    </div>
+                    <div class="topnav__right-section">
+                        <div class="topnav__cart-section">
+                            <a href="#!" class="topnav__open-cart">cart</a>
+                            <span class="topnav__cart-total-amount">(0)</span>
+                        </div>
+                        <div class="topnav__favorites-section">
+                            <i class="fas fa-heart"></i><a href="#!" class="topnav__go-favorites"></a><span
+                                class="topnav__favorites-amount">(0)</span>
+                        </div>
+                        <div class="topnav__login-section">
+                            <i class="far fa-user"></i><a href="#!" class="topnav__login-text">login</a>
+                        </div>
+                        <div class="topnav__search-section">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="topnav__togle-section" style="padding-right: 0 !important; ">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="topnav__hamburger-icon d-flex-center">
+                        <h6 class="topnav__hamburger-header">menu</h6> <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="topnav__mobile-menu d-flex-column">
+                        <i class="fas fa-times"></i>
+                        <ul class="topnav__mobile-menu-list">
+                            <li class="topnav__mobile-list-item opacity-active">home <i class="fas fa-caret-right"></i>
+                            </li>
+                            <li class="topnav__mobile-list-item">pages <i class="fas fa-caret-right"></i></li>
+                            <li class="topnav__mobile-list-item">shop <i class="fas fa-caret-right"></i></li>
+                            <li class="topnav__mobile-list-item">portfolio <i class="fas fa-caret-right"></i></li>
+                            <li class="topnav__mobile-list-item">blog <i class="fas fa-caret-right"></i></li>
+                            <li class="topnav__mobile-list-item">elements <i class="fas fa-caret-right"></i></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Banner section -->
+        <div id="main-banner">
+            <div class="banner-container d-flex-column">
+                <div class="banner__mobile-promotion-card">
+                    <h5 class="banner__card-header">70% off big sale for all furniture
+                    </h5>
+                </div>
+                <div class="banner">
+                    <div class="banner__col-6-left d-flex-column">
+                        <div class="banner__paragraph">
+                            <h5 class="banner__paragraph-header">
+                                think different.
+                            </h5>
+                            <div class="banner__paragraph-description">
+                                Depot is a unique & captivating theme designed specifically for all types of shops and
+                                online stores.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner__col-6-right d-flex-center">
+                        <img src="./assets/images/hero-banner-slider.png" alt="banner image" class="banner__image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Card Section -->
+        <main id="main-card">
+            <div class="button-container">
+                <div class="button">
+                    <div class="button__filter-section">
+                        <div class="button__category-filter">
+                            <h5 class="button__mobile-filter-menu">categories <i class="fas fa-sort-down"></i></h5>
+                        </div>
+                        <div class="button__price-filter">
+                            <h5 class="button__price-filter-btn">filter<i class="fas fa-sort-down"></i></h5>
+                            <div class="button__price-filter-card">
+                                <!-- <h4 class="button__sort-price-header">Sort by</h4> -->
+                                <ul class="button__price-filter-by-range">
+                                    <li class="button__filter-price-by-range-item isactiveitem">All</li>
+                                    <li class="button__filter-price-by-range-item" data-min="0" data-max="49">$0-$49
+                                    </li>
+                                    <li class="button__filter-price-by-range-item" data-min="50" data-max="199">
+                                        $50-$199</li>
+                                    <li class="button__filter-price-by-range-item" data-min="200" data-max="499">
+                                        200$-$499</li>
+                                    <li class="button__filter-price-by-range-item" data-min="500" data-max="1000000">
+                                        $500+</li>
+                                </ul>
+                                <ul class="button__price-filter-by-sort">
+                                    <li class="button__filter-price-sort-item isactive">Default</li>
+                                    <li class="button__filter-price-sort-item" data-order="low">Price: Low
+                                        to
+                                        high</li>
+                                    <li class="button__filter-price-sort-item" data-order="high">Price: Higt
+                                        to
+                                        low</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="card-section">
+                <div class="card-container">
+                    <div class="card card-row"></div>
+                </div>
+            </div>
+        </main>
+        <!-- Favorite Section -->
+        <aside id="cart-aside">
+            <div class=" cart-aside"></div>
+            <div class="cart-container">
+                <div class="cart d-flex-column">
+                    <div class="cart__close-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <h4 class="cart__header">In Cart</h4>
+                    <div class="cart__wrapper"></div>
+                    <!-- <div class="cart__card d-flex-space">
+                        <div class="cart__card-image">
+                            <img src="./assets/images/orrifce-full-set-min.jpg" alt="product">
+                        </div>
+                        <div class="cart__card-information">
+                            <h6 class="cart__card-title">Black Kitchen Set</h6>
+                            <em class="cart__card-price">$99.99</em>
+                            <p class="cart__remove-card">Remove Product</p>
+                        </div>
+                        <div class="cart__card-amount d-flex-column">
+                            <i class="fas fa-chevron-up"></i>
+                            <span id="product-amount">1</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div> -->
+                    <div class="cart__total-amount">Your Total: <span id="total-amount">$0</span></div>
+                    <div class="cart__delete-all-btn">
+                        <button>Remove All Item</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- Favorite Aside -->
+        <aside id="favorite-aside">
+            <div class="aside-overlay favorite-aside-overlay"></div>
+            <div class="favorite-container">
+                <div class="favorite favorite d-flex-column">
+                    <div class="favorite__close-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <h4 class="favorite__header">In favorite</h4>
+                    <div class="favorite__wrapper">
+
+                    </div>
+                    <!-- <div class="favorite__card d-flex-space">
+                        <div class="favorite__card-image">
+                            <img src="./assets/images/orrifce-full-set-min.jpg" alt="product">
+                        </div>
+                        <div class="favorite__card-information">
+                            <h6 class="favorite__card-title">Black Kitchen Set</h6>
+                            <em class="favorite__card-price">$99.99</em>
+                            <p class="favorite__remove-card">Remove Product From Favorite</p>
+                        </div>
+                    </div> -->
+                    <div class="favorite__delete-all-btn">
+                        <button>Remove All Favorites</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer__container">
+                <div class="footer footer-grid">
+                    <div class="footer__grid-item">
+                        <h4 class="footer__list-header" data-name="customer-service" style="grid-column: 1/2;">customer
+                            service
+                            <i class="fas fa-sort-down"></i>
+                        </h4>
+                        <ul class="footer__list" style="grid-row: 2/3;">
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Help & Contact Us</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Returns & Refunds</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Online Stores</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                        <h4 class="footer__list-header company-header" data-name="company" style="grid-column: 2/3;">
+                            company
+                            <i class="fas fa-sort-down"></i></h4>
+                        <ul class="footer__list company">
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">What We Do</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Available Services</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Latest Posts</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">FAQs</a>
+                            </li>
+                        </ul>
+                        <h4 class="footer__list-header social-media-header" data-name="social-media">social-media
+                            <i class="fas fa-sort-down"></i>
+                        </h4>
+                        <ul class="footer__list social-media" style="grid-row: 4/5;">
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Twitter</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Instagram</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Tumblr</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Pinterest</a>
+                            </li>
+                        </ul>
+                        <h4 class="footer__list-header profile-header" data-name="profile" style="grid-column: 2/3;">
+                            profile
+                            <i class="fas fa-sort-down"></i>
+                        </h4>
+                        <ul class="footer__list profile">
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">My Account</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Checkout</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Order Tracking</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!" class="footer__list-link">Hel & Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__copyright">&copy; Qode Interactive, All Rights Reserved</div>
+            </div>
+        </footer>
+        <section id="product-overlay">
+            <div class="product-overlay-bg"></div>
+            <div class="overlay-container">
+                <div class="overlay-wrapper">
+                    <!-- <div class="product d-flex-column">
+                        <h4 class="product__info">PRODUCT INFO</h4>
+                        <div class="product__overlay-close"><i class="fas fa-times"></i></div>
+                        <div class="product__overlay-image">
+                            <img src="./assets/images/black-kitchen-set-min.jpg" alt="product-details">
+                        </div>
+                        <div class="product__details d-flex-column">
+                            <div class="product__details-title">
+                                <h4>Black Kitchen Set</h4>
+                            </div>
+                            <div class="product__details-price"><em>$149.99</em></div>
+                            <div class="product__details-description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, a!</p>
+                            </div>
+                            <div class="product__overlay-addcart d-flex">
+                                <span class="product__quentity">Quantity</span>
+                                <div class="product__overlay-add-quentity-number">
+                                    <i class="fas fa-caret-left"></i>
+                                    <span>1</span>
+                                    <i class="fas fa-caret-right"></i>
+                                </div>
+                            </div>
+                            <div class="product__overlay-add-favorite-and-cart">
+                                <div class="product__add-favorite d-flex">
+                                    <i class="far fa-heart"></i>
+                                    <p>ADD TO WISHLIST</p>
+                                </div>
+                                <div class="produt__add-cart d-flex">
+                                    <i class="fas fa-cart-plus"></i>
+                                    <p>ADD TO CART</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <a href="#" class="go__back-btn" id="go-back"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    <!-- JS -->
+    <script src='./assets/src/request.js'></script>
+    <script src='./assets/src/storage.js'></script>
+    <script src='./assets/src/ui.js'></script>
+    <script src='./assets/src/app.js'></script>
+</body>
+
+</html>

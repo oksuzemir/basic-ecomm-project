@@ -1,0 +1,50 @@
+// Convert px to rem
+@function stripUnit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@function rem($pxValue) {
+    @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
+}
+
+@mixin breakpoint($point) {
+    @if $point==desktop {
+        @media screen and (min-width: rem(1300)) {
+            @content ;
+        }
+    }
+
+    @else if $point==laptop {
+        @media screen and (min-width: rem(1104)){
+            @content ;
+        }
+    }
+
+    @else if $point==tablet {
+        @media screen and (min-width: rem(800)){
+            @content ;
+        }
+    }
+
+    @else if $point==phablet {
+        @media (min-width: rem(601)){
+            @content ;
+        }
+    }
+
+    @else if $point==mobileonly {
+        @media (max-width: rem(600)) {
+            @content ;
+        }
+    }
+    @else if $point==xsmobileonly {
+        @media (max-width: rem(450)) {
+            @content ;
+        }
+    }
+    @else if $point==xsmobileonlycard {
+        @media (max-width: rem(350)) {
+            @content ;
+        }
+    }
+}

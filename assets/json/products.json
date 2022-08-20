@@ -1,0 +1,303 @@
+{
+  "items": [{
+      "sys": {
+        "id": "1"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Luxury Black Kitchen Set",
+        "type": "kitchen",
+        "price": 430.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/black-kitchen-set-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Turquoise Single Sofa",
+        "type": "living room",
+        "price": 42.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/home-chair-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Soft Sofa Set",
+        "type": "living room",
+        "price": 42.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/home-gray-sofa-set-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Special Living Room Set",
+        "type": "living room",
+        "price": 175.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/home-sofa-set-gray-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Oak Desk Set",
+        "type": "living room",
+        "price": 128.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/home-sofa-set-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Triple Color Leather Set",
+        "type": "living room",
+        "price": 332.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/home-sofa-set-two-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Minimalize Kitchen Set",
+        "type": "kitchen",
+        "price": 272.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/kitchen-desk-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "American Kitchen Dinner Table",
+        "type": "kitchen",
+        "price": 633.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/kitchen-set-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Architectural Kitchen Cabinets",
+        "type": "kitchen",
+        "price": 433.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/kitchen-white-set-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Lux Leather Sofe Set",
+        "type": "living room",
+        "price": 589.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/leather-sofa-set-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "11"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Oak Kitchen Set For Small Kitchens",
+        "type": "kitchen",
+        "price": 999.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/minimal-kitchen-set-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "12"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Office Work Table",
+        "type": "office",
+        "price": 459.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/office-desk-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "13"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Office Long Meeting Table",
+        "type": "office",
+        "price": 209.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/office-meeting-desk-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "14"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "White Office PC Table",
+        "type": "office",
+        "price": 299.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/office-white-set-min.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "15"
+      },
+      "favorite": {
+        "isFavorite": false
+      },
+      "fields": {
+        "title": "Smooth Black Work Table",
+        "type": "office",
+        "price": 699.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/images/office-full-set-min.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+#header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: rem(96);
+    z-index: 999;
+    background-color: white;
+
+    i {
+        cursor: pointer;
+    }
+
+    .container {
+        height: 100%;
+        padding: 0 rem(15);
+
+        @include breakpoint(laptop) {
+            padding: 0;
+        }
+    }
+}
+
+.topnav {
+    $this: &;
+    height: 100%;
+
+    &__left-section {
+        display: none;
+
+        @include breakpoint(laptop) {
+            display: block;
+        }
+    }
+
+    #{$this}__list-item {
+        #{$this}__list-link.light {
+            color: #929292;
+            font-weight: $font-weight-medium-bold;
+            opacity: 0.8;
+        }
+
+        #{$this}__list-link {
+            @include breakpoint(laptop) {
+                font-size: $font-size-small;
+                font-weight: $font-weight-medium-bold;
+                padding: 0 rem(22);
+                color: $header-color;
+            }
+        }
+    }
+
+
+    &__right-section {
+        display: none;
+        letter-spacing: 2px;
+
+        @include breakpoint(laptop) {
+            display: flex;
+        }
+
+        div {
+            padding: 0 rem(10px);
+        }
+
+        a {
+            font-size: $font-size-small - 2;
+            font-weight: $font-weight-bold;
+            color: $header-color;
+        }
+
+        #{$this}__cart-section {
+            cursor: pointer;
+            #{$this}__open-cart {
+                padding-right: rem(2px);
+            }
+            
+            #{$this}__cart-total-amount {
+                color: #929292;
+                font-size: $font-size-small;
+                font-weight: $font-weight-light;
+            }
+        }
+        
+        #{$this}__favorites-section {
+            cursor: pointer;
+            .fas {
+                padding-right: rem(5px);
+                font-size: rem(13px);
+            }
+
+            #{$this}__favorites-amount {
+                color: #929292;
+                font-weight: $font-weight-light;
+                font-size: $font-size-small;
+            }
+        }
+
+        #{$this}__login-section {
+            .far {
+                font-size: $font-size-small;
+                padding-right: rem(5px);
+            }
+        }
+    }
+
+    &__medium-section {
+        #{$this}__icon {
+            cursor: pointer;
+            height: rem(20px);
+            display: block;
+
+            #{$this}__icon-image {
+                text-align: center;
+                vertical-align: middle;
+                width: auto;
+                height: 100%;
+            }
+        }
+    }
+
+    &__hamburger-icon {
+        cursor: pointer;
+
+        @include breakpoint(laptop) {
+            display: none;
+        }
+
+        i {
+            position: relative;
+            top: -1px;
+        }
+
+        #{$this}__hamburger-header {
+            font-size: rem(14px);
+            font-weight: $font-weight-medium-bold;
+            margin-right: rem(5px);
+        }
+    }
+
+    &__mobile-menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        transition: transform .7s cubic-bezier(.25, 1, .2, 1);
+        right: 0;
+        transform: translateX(100%);
+        width: rem(360);
+        background-color: $mobile-menu-bg;
+        height: 100vh;
+        padding: rem(30) rem(70) rem(121);
+
+        .fa-times {
+            position: absolute;
+            display: inline-block;
+            font-size: rem(18px);
+            top: 23px;
+            right: 24px;
+            z-index: 1000;
+            cursor: pointer;
+            color: white;
+        }
+
+        #{$this}__mobile-menu-list {
+            padding-top: 15%;
+
+            .opacity-active {
+                color: white !important;
+            }
+
+            #{$this}__mobile-list-item {
+                text-transform: uppercase;
+                color: $mobile-menu-text-color;
+                padding: rem(11) 0;
+                cursor: pointer;
+                font-size: rem($font-size-big);
+
+                .fas {
+                    position: relative;
+                    top: -2px;
+                    margin-left: rem(5px);
+                    font-size: rem($font-size-small);
+                }
+            }
+        }
+    }
+}
